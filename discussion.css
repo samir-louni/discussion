@@ -1,0 +1,343 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* POLICE */
+
+@font-face {
+    font-family: "font1";
+    src: url(font-discussion/font1.ttf);
+}
+
+
+/* HEADER */
+
+.ratufu {
+    width: 150px;
+    height: 150px;
+}
+
+header {
+    width: 100%;
+    height: 90px;
+    background-color: rgba(0, 0, 0, 0.527);
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.466);
+}
+
+.encart {
+    display: flex;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    margin-left: 70%;
+    margin-top: 2%;
+}
+
+li {
+    margin-left: 30px;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-family: "font1";
+    font-size: 25px;
+    font-weight: bold;
+    opacity: 95%;
+}
+
+a:hover {
+    text-shadow: 2px 2px 3px rgba(66, 66, 66, 0.507);
+    opacity: 1;
+    transition-duration: 0.3s
+}
+
+
+/* PAGE CONNEXION*/
+
+.body2 {
+    background-image: url(images-discussion/fe2.jpg);
+    background-attachment: fixed;
+}
+
+.carrerco {
+    border: 3px solid rgb(100, 100, 100);
+    border-radius: 10px;
+    background-color: rgba(27, 27, 27, 0.836);
+    width: 250px;
+    padding: 10px;
+    padding-top: 1px;
+    color: white;
+    text-shadow: 2px 2px 2px black;
+    font-size: 15px;
+    text-align: center;
+}
+
+.connexion {
+    display: flex;
+    justify-content: center;
+    padding: 19%;
+    padding-bottom: 11%;
+}
+
+.confirm {
+    margin-top: 15px;
+    background-color: #65A9E8;
+    color: #daeeff;
+    border: 1px solid #122B63;
+    border-radius: 6px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.nex {
+    margin-top: 13px;
+    margin-bottom: 13px;
+}
+
+.confirm:hover {
+    color: #ffffff;
+    background-color: #5da0df;
+    transition-duration: 0.1s;
+}
+
+.co2 {
+    background-color: rgb(20, 20, 20);
+    margin-left: 20px;
+    color: white;
+}
+
+.co {
+    background-color: rgb(20, 20, 20);
+    margin-left: 5px;
+    color: white;
+}
+
+
+/* Page Inscription */
+
+.inscription {
+    display: flex;
+    justify-content: center;
+    padding: 19%;
+    padding-bottom: 9%;
+}
+
+.carrerco2 {
+    border: 3px solid rgb(100, 100, 100);
+    border-radius: 10px;
+    background-color: rgba(27, 27, 27, 0.836);
+    width: 320px;
+    padding: 10px;
+    padding-top: 1px;
+    color: white;
+    text-shadow: 2px 2px 2px black;
+    font-size: 15px;
+    text-align: center;
+}
+
+.co3 {
+    background-color: rgb(20, 20, 20);
+    margin-right: 35px;
+    color: white;
+}
+
+.fot-inscri {
+    width: 100%;
+    height: 60px;
+    background-color: rgba(0, 0, 0, 0.527);
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.466);
+    color: white;
+    font-family: "font1";
+    text-align: center;
+    margin-top: 0.01%;
+}
+
+
+/* FOOTER */
+
+footer {
+    width: 100%;
+    height: 60px;
+    background-color: rgba(0, 0, 0, 0.527);
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.466);
+    color: white;
+    font-family: "font1";
+    text-align: center;
+    padding-top: 50px;
+}
+
+.fot {
+    width: 120px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/* MAIN */
+
+.h1 {
+    background-image: url(images-discussion/fe.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.main-contains {
+    background-image: url(https://waterchildren.files.wordpress.com/2015/09/japanese-paper-03.jpg);
+    width: 1000px;
+    height: 2000px;
+    border: 1px solid black;
+    margin-left: 23%;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.logo-nos {
+    width: 350px;
+    height: 160px;
+    padding-left: 37%;
+    margin-top: 20px;
+}
+
+.description {
+    margin-top: 40px;
+    font-family: "font1";
+    font-size: 25px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.video1 {
+    margin-top: 100px;
+    margin-left: 170px;
+}
+
+.profil {
+    display: flex;
+    justify-content: center;
+}
+
+
+/** PROFIL **/
+
+.profil {
+    margin-top: 13%;
+    display: flex;
+    justify-content: center;
+}
+
+.body3 {
+    background-image: url(images-discussion/bateau.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.tableauprofil {
+    padding-bottom: 15px;
+    width: 450px;
+    margin-top: 50px;
+    border-radius: 10px;
+    background-color: rgba(27, 27, 27, 0.836);
+    width: 320px;
+    padding: 10px;
+    padding-top: 1px;
+    color: white;
+    text-shadow: 2px 2px 2px black;
+    font-size: 15px;
+    text-align: center;
+    font-family: "font1";
+}
+
+.espace {
+    margin-top: 15px;
+}
+
+.fot-profil {
+    margin-top: 14.4%;
+}
+
+.confirm2 {
+    margin-top: 7px;
+    margin-bottom: 7px;
+    background-color: #65A9E8;
+    color: #daeeff;
+    border: 1px solid #122B63;
+    border-radius: 6px;
+    padding: 4px;
+}
+
+.co5 {
+    background-color: rgb(20, 20, 20);
+    margin-left: 20px;
+    color: white;
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+
+
+/** DISCUSSION **/
+
+.formulaire {
+    width: 625px;
+    height: auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border: 2px solid black;
+    border-radius: 10px;
+    box-shadow: 4px 3px 3px rgba(10, 10, 10, 0.493);
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.452);
+    color: rgb(3, 3, 3);
+    font-size: 18px;
+    margin-left: 33%;
+    align-items: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.body4 {
+    background-image: url("images-discussion/fe4.png");
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.tableaucentre {
+    display: flex;
+    justify-content: center;
+    height: 400px;
+    overflow-y: scroll;
+    margin-top: 40px;
+}
+
+table {
+    width: 600px;
+    background-color: rgba(255, 255, 255, 0.527);
+    font-size: 20px;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.315);
+    border-collapse: collapse;
+}
+
+td {
+    border: transparent;
+    padding: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.fot-discussion {
+    width: 100%;
+    height: 50px;
+    background-color: rgba(0, 0, 0, 0.527);
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.466);
+    color: white;
+    font-family: "font1";
+    text-align: center;
+    margin-top: 5px;
+}
